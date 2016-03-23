@@ -1,4 +1,11 @@
-
+/**
+ * Login with Amazon - SHA 256 compatibility test scripts
+ *
+ * @category    Amazon
+ * @package     shaTest.rb
+ * @copyright   Copyright (c) 2016 Amazon.com
+ * @license     http://opensource.org/licenses/Apache-2.0  Apache License, Version 2.0
+ */
 require 'net/https'
 
 uri = URI.parse('https://api.sandbox.amazon.com')
